@@ -1,0 +1,112 @@
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/layout/section.sass";
+
+.body_main{
+  width: 96%;
+  right: 0;
+  position: absolute;
+}
+.main_root{
+  width: 100%;
+  position: relative;
+}
+.nameFirst{
+    width: 207px;
+    height: 43px;
+    left: 144px;
+    top: 305px;
+    color: #000000;
+}
+.body_section{
+  background-color: #E5E5E5;
+  padding: 40px 30px 10px 30px;
+  .body_header{
+    font-size: 39px;
+    color: #262626;
+    font-weight: 300;
+  }
+  .lbl_filter{
+    font-size: 12px;
+    color: #7D7D7D;
+    display: block;
+    margin: 10px 0px;
+  }
+  .input_search{
+    background-color: white;
+    width: 20%;
+    margin-bottom: 24px;
+  }
+  .btn_reset{
+    font-size: 19px;
+    font-weight: 400;
+    color: #262626;
+    padding: 10px 50px;
+    box-shadow: none;
+    border: 1px solid #CFD2D9;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-bottom: 24px;
+  }
+  .nameFirst{
+    font-size: 30px;
+    font-weight: 400px;
+    height: 40px;
+    margin-bottom: 0;
+  }
+  .desc_para{
+    font-size: 16px;
+  }
+  .section_first .subsection_first{
+    width: 60% !important;
+    flex: initial;
+  }
+  .promocode_sect{
+    width: 40% !important;
+  }
+  .MuiPaper-elevation1{
+    box-shadow: none;
+  }
+  .main_wrapper{
+    max-width: initial;
+    border: 1px solid #E2E5EC;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    padding: 20px;
+  }
+  .promocode_sect .promo{
+    font-size: 12px;
+    color: #7D7D7D;
+    font-weight: 400px;
+    margin-bottom: 5px;
+  }
+  .bonus_sect{
+    display: flex;
+  }
+  .bonus_sect .it_promo{
+    width: 100%;
+    margin-right: 24px;
+    max-width: 50%;
+    border: 1px solid #E2E5EC;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 14px;
+    position: relative;
+  }
+  .bonus_sect .it_promo span{
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+  }
+  .bonus_sect button {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid #E2E5EC;
+    background: #0085FF;
+    width: 50%;
+    border-radius: 6px;
+}
+}
